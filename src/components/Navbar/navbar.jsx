@@ -5,9 +5,9 @@ const Navbar = () =>{
         <>
         <header class="heading d-flex grow-shrink-basis align-center">
     <div class="heading-title-icon d-flex grow-shrink-basis align-center">
-        <img class="icon mr-1" src="/assets/image.png" alt="lightbul"/>
+        <img class="icon mr-1" src={process.env.PUBLIC_URL +'/assests/images.png'} alt="logo"/>
         <h1 class="heading-title">
-            <a class="link" href="/">Page Title</a>
+            <a class="link" href="/">Prettier</a>
         </h1>
     </div>
     <nav class="navigation">

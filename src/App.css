@@ -1,1 +1,16 @@
 @import url("https://uilight.netlify.app/main.css");
+
+:root {
+  --bg-color : #1D267D; /*this is background color*/
+  --primary-color : #0C134F;
+  --secondary-color : #9f4393;
+  --accent-color : #0C134F;
+  --text-color-primary : #f8f7f8;
+  --green-badge : #22c55e;
+
+}
+
+body {
+  background-color: var(--bg-color);
+  overflow: hidden;
+}
