@@ -1,0 +1,75 @@
+.main-container{
+    width: 100%;
+    margin: 3rem 0 1rem 0;
+    
+}
+
+.question-dialog{
+    width: 40vw;
+    color: var(--text-color-primary);
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    padding: 1rem 2rem;
+    
+   
+}
+
+.qna-title {
+    margin: 1rem 0 ;
+}
+
+.qna-score{
+    display: flex;
+    padding:  0 2rem;
+
+}
+.score{
+    margin-left : auto;
+}
+
+.question{
+    padding: 1rem 2rem 0 2rem;
+}
+
+.option-box{
+    padding: 1rem 2 rem;
+}
+
+.option{
+    margin : 1rem 0;
+    padding: 1rem 0;
+    background-color: var(--bg-color);
+    color: var(--text-color-primary);
+    border-radius: 2rem;
+    width: 100%;
+    
+}
+
+.option:hover {
+    cursor: pointer;
+}
+
+.next-button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.button-container{
+    display: flex;
+    gap: 10px;
+}
+
+.next-question{
+    width: max-content;
+}
+
+.success{
+    background-color: var(--green-badge);
+    color: var(--text-color-primary);
+    border: none;
+}
+.error{
+    background-color: var(--red-badge);
+    color: var(--text-color-primary);
+    border: none;
+}
